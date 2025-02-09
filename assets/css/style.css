@@ -1,0 +1,81 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  align-items: center;
+  background-color: blanchedalmond;
+  font-size: 1.2rem;
+}
+.titulo {
+  text-shadow: 3px 3px 0 rgb(0, 0, 0);
+  color: white;
+  font-size: xx-large;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.completed {
+  text-decoration: line-through rgb(255, 26, 26);
+  text-decoration-thickness: 3px;
+  text-decoration-style: wavy;
+}
+
+.contenedor {
+  background-image: url(../imgs/thumbnail_large.jpg);
+  width: 600px;
+  margin: 250px auto;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.detalle {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgba(255, 235, 205, 0.514);
+}
+.detalle-total {
+  text-align: justify;
+  height: 80px;
+  padding: 5px;
+  margin: 5px;
+}
+#lista-tareas {
+  margin: 0px;
+}
+#nueva-tarea {
+  width: 430px;
+  height: 30px;
+  background-color: rgb(255, 227, 186);
+}
+.agregarTarea {
+  border-radius: 5px;
+  height: 30px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+.agregarTarea:hover {
+  background-color: rgba(180, 100, 25, 0.932);
+  color: white;
+}
+.enunciado {
+  display: flex;
+  font-size: small;
+  font-weight: 800;
+  padding-left: 10px;
+  margin-left: 70px;
+  margin-bottom: 0px;
+}
+.new {
+  margin-bottom: 20px;
+}
+button {
+  transition: transform 0.2s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+}
